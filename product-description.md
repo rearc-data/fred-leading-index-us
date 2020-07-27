@@ -1,22 +1,36 @@
-# 
+Leading Index for the U.S. | FRED
+=========================
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at []().
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/fred-leading-index-us](https://github.com/rearc-data/fred-leading-index-us).
 
 ## Main Overview
 
+This release contains information on the leading index for the United States and has indicators that could predict the behavior of the economy's future. These indicators are as follows: state-level housing permits (1 to 4 units), state initial unemployment insurance claims, delivery times from the Institute for Supply Management (ISM) manufacturing survey, and the interest rate spread between the 10-year Treasury bond and the 3-month Treasury bill.
+
+The included data is provided by the Federal Reserve Bank of St. Louis' FRED (Federal Reserve Economic Data) platform, which contains information on over 700,000+ series related to historical economic data. If you are interested in learning more or want to explore other datasets maintained on FRED, visit the [FRED homepage](https://fred.stlouisfed.org/).
+
+
 #### Data Source
 
+This resource is presented in both the XLS and CSV formats. The included dataset contains the following columns:
+
+`date, USSLIND`
+
+The `USSLIND` column represents the percentage of the leading index at the time of the corresponding `date`.  
+
+
 ## More Information
-- Source:      
-- 
-- 
-- Frequency:
-- Formats:
+- Source: [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/series/USSLIND)
+- [FRED | Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/)
+- [Federal Reserve Bank of St. Louis | Homepage](https://www.stlouisfed.org/)
+- [Terms of Use FAQ](https://fred.stlouisfed.org/legal/)
+- Frequency: Monthly
+- Formats: XLS, CSV
 
 ## Contact Details
-- If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue]() and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
-- If you are looking for specific open datasets currently not available on ADX, please submit a request on our project board [here]().
-- If you have questions about the source data, please contact .
+- If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue](hhttps://github.com/rearc-data/fred-leading-index-us) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
+- If you are looking for specific open datasets currently not available on ADX, please submit a request on our project board [here](https://github.com/rearc-data/covid-datasets-aws-data-exchange/projects/1).
+- If you have questions about the source data, please contact [FRED](https://fred.stlouisfed.org/contactus/).
 - If you have any other questions or feedback, send us an email at data@rearc.io.
 
 ## About Rearc
