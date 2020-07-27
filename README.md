@@ -20,7 +20,7 @@ This resource is presented in both the XLS and CSV formats. The included dataset
 
 `date, USSLIND`
 
-The `USSLIND` column represents the number of claims at the time of the corresponding `date`.  
+The `USSLIND` column represents the percentage of the leading index at the time of the corresponding `date`.  
 
 
 ## More Information
